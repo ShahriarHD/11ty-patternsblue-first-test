@@ -1,0 +1,12 @@
+/* purgecss start ignore */
+
+@import 'tailwindcss/base';
+@import './base.css';
+@import './header.css';
+@import './posts-list.css';
+@import './copy.css';
+
+/* purgecss end ignore */
+
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

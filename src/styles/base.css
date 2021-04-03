@@ -1,0 +1,138 @@
+/* Font (see https://fonts.google.com) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Prism Code Highlighting Theme (see https://prismjs.com) */
+@import url('https://cdn.jsdelivr.net/npm/prism-themes@1.5.0/themes/prism-dracula.css');
+
+:not(pre) > code[class*='language-'] {
+    /* Fixes issue where theme removes indentation. */
+    white-space: pre;
+}
+
+html,
+body {
+    @apply antialiased;
+    @apply bg-gray-300 dark:bg-gray-900;
+    @apply text-black dark:text-white;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-bold leading-tight text-lg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a,
+a {
+    @apply text-black dark:text-white;
+}
+
+a {
+    @apply font-bold;
+}
+
+a:hover {
+    @apply underline;
+}
+
+p {
+    @apply text-md;
+}
+
+pre {
+    @apply my-2 text-sm tracking-wider break-words;
+
+    border-radius: 25px;
+}
+
+hr {
+    @apply mt-4 mb-2 border-dotted border-b border-gray-600;
+}
+
+.post-title {
+    font-size: 2.5rem;
+}
+
+.attribution {
+    @apply text-right -mt-8 text-sm;
+}
+
+.attribution::before {
+    content: '— ';
+}
+
+.content > blockquote {
+    border-left: 0.5rem solid #718096;
+    margin: 1.5em 1.5em;
+    padding: 0.5em 1em;
+}
+
+.content > img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    max-width: 100%;
+    min-width: 100px;
+}
+
+.content > ul {
+    list-style-type: disc;
+}
+
+.content > ol {
+    list-style-type: decimal;
+}
+
+.content > ol > li,
+.content > ul > li {
+    @apply text-md mx-8 px-2;
+}
+
+.content > p {
+    @apply pt-4;
+}
+
+.excerpt {
+    @apply mb-2;
+}
+
+.linked-list-posts {
+    @apply flex flex-row justify-between;
+    @apply mt-16 pt-4;
+    @apply border-t-2 border-gray-500;
+}
+
+.next-page,
+.previous-page {
+    @apply font-bold whitespace-nowrap text-left;
+}
+
+.next-page::after {
+    content: '➡️';
+}
+
+.previous-page::before {
+    content: '⬅️';
+}
+
+.caption {
+    @apply text-center text-sm text-gray-400 pb-4 mx-auto w-full;
+
+    margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+.posts-list {
+    @apply flex flex-col justify-items-center items-stretch;
+}
+
+.posts-list .post-card {
+    @apply p-4 mb-4;
+    @apply shadow-xl rounded-xl overflow-hidden;
+    @apply bg-gray-100 dark:bg-gray-800;
+    @apply border-blue-500 border-b-2;
+}

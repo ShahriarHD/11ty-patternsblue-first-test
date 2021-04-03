@@ -1,0 +1,15 @@
+{
+    "name": "patterns blue",
+    "description": "something new",
+    "url": "https://patterns.blue/",
+    "feed": {
+        "filename": "feed.xml",
+        "path": "/feed/feed.xml",
+        "id": "https://patterns.blue/"
+    },
+    "jsonfeed": {
+        "filename": "feed.json",
+        "path": "/feed/feed.json",
+        "url": "https://patterns.blue/feed/feed.json"
+    }
+}

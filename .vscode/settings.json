@@ -1,0 +1,17 @@
+{
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.format.enable": true,
+    "tailwindCSS.lint.invalidTailwindDirective": "warning",
+    "css.validate": false,
+    "cSpell.words": [
+        "Shahriar",
+        "eleventy",
+        "linkify",
+        "tailwindcss"
+    ]
+}

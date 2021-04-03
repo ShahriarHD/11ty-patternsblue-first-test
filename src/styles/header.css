@@ -1,0 +1,24 @@
+header nav {
+    @apply container mx-auto;
+    @apply border-blue-600 border-b-2;
+    @apply bg-white dark:bg-black;
+    @apply rounded-full overflow-hidden;
+    @apply mt-8;
+    @apply shadow-2xl;
+}
+
+header nav ul {
+    @apply flex flex-row justify-start items-center;
+    @apply px-8 py-4;
+}
+
+header nav ul li {
+    @apply mr-4;
+}
+
+header nav ul img {
+    @apply rounded-full overflow-hidden bg-white;
+    @apply w-16 h-16 p-1;
+
+    aspect-ratio: 1 / 1;
+}

@@ -1,0 +1,16 @@
+---
+pagination:
+  data: collections.postsWithoutDrafts
+  size: 20
+  alias: posts
+  reverse: true
+permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+{% extends 'base.njk' %}
+
+{% block main %}
+
+  {% include "posts-list.njk" %}
+
+{% endblock %}
