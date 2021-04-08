@@ -1,0 +1,22 @@
+[
+    {
+        "src": "/gallery/1.jpeg",
+        "caption": "good image 1"
+    },
+    {
+        "src": "/gallery/2.png",
+        "caption": "good image 2"
+    },
+    {
+        "src": "/gallery/3.jpeg",
+        "caption": "good image 3"
+    },
+    {
+        "src": "/gallery/4.jpeg",
+        "caption": "good image 4"
+    },
+    {
+        "src": "/gallery/5.jpeg",
+        "caption": "good image 5"
+    }
+]

@@ -1,0 +1,15 @@
+.gallery {
+    @apply grid grid-cols-3 gap-8 items-center;
+}
+
+.gallery figure {
+    @apply flex flex-col items-center;
+}
+
+.gallery figure figcaption {
+    @apply text-gray-700 dark:text-gray-300 mt-2;
+}
+
+.gallery figure img {
+    @apply hover:scale-110 transform transition-transform;
+}

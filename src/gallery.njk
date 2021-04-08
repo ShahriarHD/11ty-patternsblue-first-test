@@ -1,0 +1,17 @@
+---
+title: 'Gallery'
+path: '/gallery'
+---
+
+{% extends 'base.njk' %}
+
+{% block main %}
+    <div class="gallery">
+        {%for image in gallery%}
+            <figure>
+                <img src="{{image.src}}" alt="{{image.caption}}" />
+                <figcaption>{{image.caption}}</figcaption>
+            </figure>
+        {%endfor%}
+    </div>
+{% endblock %}
